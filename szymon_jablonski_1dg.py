@@ -11,11 +11,11 @@ c=math.sqrt(a*b)
 print(f"Średnia geometryczna tych dwóch liczb wynosi: {c}")
 
 print("Zadanie 3.")
-a=int(input("Podaj a: "))
-if a%2==0 :
-   print("Liczba a jest parzysta.")
+a=int(input("Podaj liczbę: "))
+if a%2==0 and a==0 :
+   print(f"Liczba {a} jest parzysta.")
 else:
-   print("Liczba a jest nieparzysta.")
+   print(f"Liczba {a} jest nieparzysta.")
    
 
 
