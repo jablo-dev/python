@@ -16,7 +16,4 @@ if a%2==0 and a==0 :
    print(f"Liczba {a} jest parzysta.")
 else:
    print(f"Liczba {a} jest nieparzysta.")
-   
-
-
 
