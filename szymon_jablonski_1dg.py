@@ -5,8 +5,8 @@ a=int(4-b)/5
 print(f"Wartość równania a = (4-b)/5 wynosi: {a}")
 
 print("Zadanie 2.")
-a=int(input("Podaj a: "))
-b=int(input("Podaj b: "))
+a=float(input("Podaj a: "))
+b=float(input("Podaj b: "))
 c=math.sqrt(a*b)
 print(f"Średnia geometryczna tych dwóch liczb wynosi: {c}")
 
